@@ -4,18 +4,18 @@ import React from 'react'
 const ProfileScreen = () => {
 
     // TODO: handle logout
-    const handleLogout = () => {}
+    const handleLogout = () => { }
 
     return (
         <SafeAreaView>
-            <View style={{padding:20}}>
+            <View style={{ padding: 20 }}>
                 <Text>Profile</Text>
 
                 {/* TODO: Show logged in user info */}
                 <Text>Email here</Text>
                 <Text>Username here</Text>
 
-                <Button 
+                <Button
                     title="Sign Out"
                     color="green"
                     onPress={handleLogout} />
@@ -25,3 +25,5 @@ const ProfileScreen = () => {
 }
 
 export default ProfileScreen
+
+//shift alt f 
